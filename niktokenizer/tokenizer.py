@@ -42,12 +42,3 @@ class Tokenizer:
                 raise TypeError("The tokens generated must be of type int")
 
         return ''.join([chr(int(char) - self.offset) for char in list(tokens)])
-
-if __name__== "__main__":
-
-    tokenizer = Tokenizer(5)
-
-    encoded = tokenizer.encoder("This is Nikhil")
-    decoded = tokenizer.decoder(encoded)
-
-    print(decoded)
