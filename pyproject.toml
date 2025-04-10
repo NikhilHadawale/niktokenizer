@@ -15,4 +15,4 @@ requires-python = ">=3.6"
 dependencies = []
 
 [project.urls]
-"Homepage" = "https://github.com/ebimsv/mlpredictor"
+"Homepage" = "https://github.com/NikhilHadawale/niktokenizer.git"

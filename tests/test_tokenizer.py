@@ -1,6 +1,6 @@
 import pytest
 from typing import List
-from niktokenizer.tokenizer import Tokenizer
+from niktokenizer import Tokenizer
 
 @pytest.fixture
 def tokenizer():
