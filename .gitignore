@@ -1,2 +1,9 @@
 .venv
 .idea
+*.pyc
+__pycache__/
+*.pkl
+dist/
+build/
+.pytest_cache/
+niktokenizer.engg.info/
